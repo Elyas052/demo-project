@@ -13,7 +13,6 @@ import org.openqa.selenium.TakesScreenshot;
 
 import java.util.concurrent.TimeUnit;
 
-
 public class StepDefs {
 
     @Given("^I am on the home page$")
@@ -57,8 +56,6 @@ public class StepDefs {
             scenario.attach(screenshot, "image/png", scenario.getName());
         }
         Driver.closeDriver();
-
-
 
 
     }

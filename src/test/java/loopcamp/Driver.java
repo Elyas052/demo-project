@@ -24,7 +24,6 @@ public class Driver {
     private static WebDriver driver;
     private static ChromeOptions chromeOptions;
     private static FirefoxOptions firefoxOptions;
-
     private static DesiredCapabilities desiredCapabilities;
 
     public static WebDriver getDriver() {
@@ -118,7 +117,7 @@ public class Driver {
 
 
                 /**
-                 * These added because of EC@2 Jenkins on Linux was not running the ones above because of graphical issues.
+                 * These added because of EC@2 Jenkins on Linux were not running the ones above because of graphical issues.
                  */
                 case "chrome-linux":
                     WebDriverManager.chromedriver().setup();
